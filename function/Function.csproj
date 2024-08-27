@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AzureFunctionsVersion>v4</AzureFunctionsVersion>
+    <_FunctionsSkipCleanOutput>true</_FunctionsSkipCleanOutput>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.RabbitMQ" Version="2.0.3" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.2.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+    <PackageReference Include="Npgsql" Version="5.0.16" />
+    <PackageReference Include="AHI.Infrastructure.Service.Dapper" Version="2.1.5-rc54" />
+    <PackageReference Include="AHI.Infrastructure.Bus.RabbitMQ" Version="2.1.5-rc54" />
+    <PackageReference Include="AHI.Infrastructure.Import" Version="2.1.5-rc54" />
+    <PackageReference Include="AHI.Infrastructure.Export" Version="2.1.5-rc54" />
+    <PackageReference Include="AHI.Infrastructure.Audit" Version="2.1.5-rc54" />
+    <PackageReference Include="AHI.Infrastructure.Service.Tag" Version="2.1.5-rc54" />
+    <PackageReference Include="AHI.Infrastructure.Security.Function" Version="2.1.5-rc54" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppData\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="AppData\ExportTemplate\AssetTableModel.xlsx" />
+  </ItemGroup>
+</Project>

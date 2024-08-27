@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "IdentityServer4.AccessTokenValidation >= 3.0.1",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.32",
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.32",
+      "System.Text.Encodings.Web >= 8.0.0",
+      "prometheus-net.AspNetCore >= 6.0.0",
+      "prometheus-net.SystemMetrics >= 2.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/phuphan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Api/AssetTable.Api.csproj",
+      "projectName": "AssetTable.Api",
+      "projectPath": "/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Api/AssetTable.Api.csproj",
+      "packagesPath": "/Users/phuphan/.nuget/packages/",
+      "outputPath": "/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Api/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/phuphan/Yokogawa/Asset Management/asset-table-service/NuGet.Config",
+        "/Users/phuphan/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/AssetHealthInsights/_packaging/AssetHealthInsights/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/AssetTable.Application.csproj": {
+              "projectPath": "/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/AssetTable.Application.csproj"
+            },
+            "/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Domain/AssetTable.Domain.csproj": {
+              "projectPath": "/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Domain/AssetTable.Domain.csproj"
+            },
+            "/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/AssetTable.Persistence.csproj": {
+              "projectPath": "/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/AssetTable.Persistence.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "IdentityServer4.AccessTokenValidation": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[3.1.32, )"
+          },
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+            "target": "Package",
+            "version": "[3.1.32, )"
+          },
+          "System.Text.Encodings.Web": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "prometheus-net.AspNetCore": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "prometheus-net.SystemMetrics": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.400/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'AHI.Infrastructure.Service.Dapper' from remote source 'https://pkgs.dev.azure.com/AssetHealthInsights/_packaging/79ae7bbd-f600-4ab5-a5f9-fd5798c28b30/nuget/v3/flat2/ahi.infrastructure.service.dapper/index.json'.",
+      "libraryId": "AHI.Infrastructure.Service.Dapper"
+    }
+  ]
+}

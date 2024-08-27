@@ -1,0 +1,15 @@
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/bin/Debug/netstandard2.1/AssetTable.Persistence.deps.json
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/bin/Debug/netstandard2.1/AssetTable.Persistence.dll
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/bin/Debug/netstandard2.1/AssetTable.Persistence.pdb
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/bin/Debug/netstandard2.1/AssetTable.Application.dll
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/bin/Debug/netstandard2.1/AssetTable.Domain.dll
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/bin/Debug/netstandard2.1/AssetTable.Application.pdb
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/bin/Debug/netstandard2.1/AssetTable.Domain.pdb
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/obj/Debug/netstandard2.1/AssetTable.Persistence.csproj.AssemblyReference.cache
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/obj/Debug/netstandard2.1/AssetTable.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/obj/Debug/netstandard2.1/AssetTable.Persistence.AssemblyInfoInputs.cache
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/obj/Debug/netstandard2.1/AssetTable.Persistence.AssemblyInfo.cs
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/obj/Debug/netstandard2.1/AssetTable.Persistence.csproj.CoreCompileInputs.cache
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/obj/Debug/netstandard2.1/AssetTable.Persistence.csproj.CopyComplete
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/obj/Debug/netstandard2.1/AssetTable.Persistence.dll
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Persistence/obj/Debug/netstandard2.1/AssetTable.Persistence.pdb

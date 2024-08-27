@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+ <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="3.1.28" />
+    <PackageReference Include="prometheus-net" Version="6.0.0" />
+    <PackageReference Include="AHI.Infrastructure.Service" Version="2.1.5-rc54" />
+    <PackageReference Include="AHI.Infrastructure.Service.Dapper" Version="2.1.5-rc54" />
+    <PackageReference Include="AHI.Infrastructure.Validation" Version="2.1.5-rc54" />
+    <PackageReference Include="AHI.Infrastructure.Audit" Version="2.1.5-rc54" />
+    <PackageReference Include="AHI.Infrastructure.Bus.RabbitMQ" Version="2.1.5-rc54" />
+    <PackageReference Include="AHI.Infrastructure.Service.Tag" Version="2.1.5-rc54" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AssetTable.Domain\AssetTable.Domain.csproj" />
+  </ItemGroup>
+</Project>

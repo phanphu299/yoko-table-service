@@ -1,0 +1,1018 @@
+{
+    "subscriptionId": "2671d8de-acf4-4b5a-8e9f-aad030180061",
+    "notificationId": 65,
+    "id": "bd4f5022-653a-4eca-a274-1271e6e91e47",
+    "eventType": "ms.vss-release.deployment-completed-event",
+    "publisherId": "rm",
+    "message": {
+        "text": "Deployment of release 0.1.3-vmo-develop.131-20220214-2 on stage Migrate database succeeded.",
+        "html": "Deployment on stage <a href='https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_release?_a=environment-summary&definitionId=23&definitionEnvironmentId=30'>Migrate database</a> succeeded.",
+        "markdown": "Deployment on stage [Migrate database](https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_release?_a=environment-summary&definitionId=23&definitionEnvironmentId=30) succeeded."
+    },
+    "detailedMessage": {
+        "text": "Deployment of release 0.1.3-vmo-develop.131-20220214-2 on stage Migrate database succeeded. Time to deploy: 00:05:18.",
+        "html": "Deployment on stage <a href='https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_release?_a=environment-summary&definitionId=23&definitionEnvironmentId=30'>Migrate database</a> succeeded. Time to deploy: 00:05:18.",
+        "markdown": "Deployment on stage [Migrate database](https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_release?_a=environment-summary&definitionId=23&definitionEnvironmentId=30) succeeded. Time to deploy: 00:05:18."
+    },
+    "resource": {
+        "environment": {
+            "id": 36862,
+            "releaseId": 18026,
+            "name": "Migrate database",
+            "status": "succeeded",
+            "variables": {},
+            "variableGroups": [
+                {
+                    "variables": {
+                        "ConnectionStrings-Idp": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ConnectionStrings-Postgres": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ConnectionStrings-Reporting": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ConnectionStrings-Configuration": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "Primary-AzureSql-ElasticPool": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "Primary-AzureSql-Server": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ResourceGroup-Name": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ConnectionStrings-Device": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ConnectionStrings-Postgres-Device": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ConnectionStrings-AzureSql-Master": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ConnectionStrings-Alarm": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ConnectionStrings-Audit": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ConnectionStrings-Broker": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ConnectionStrings-Tenant-Root": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "Authentication-Authority": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "Authentication-ClientId": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "Authentication-ClientSecret": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        },
+                        "ApiEndpoint": {
+                            "enabled": true,
+                            "contentType": "",
+                            "value": null,
+                            "isSecret": true
+                        }
+                    },
+                    "type": "AzureKeyVault",
+                    "id": 1,
+                    "name": "Dev01 Keyvault",
+                    "description": "",
+                    "providerData": {
+                        "serviceEndpointId": "eb4d2206-a076-4060-8eac-93442f05106a",
+                        "vault": "ydx-dev01-sea-kv",
+                        "lastRefreshedOn": "2021-12-27T22:30:14.938Z"
+                    },
+                    "isShared": false,
+                    "variableGroupProjectReferences": null
+                },
+                {
+                    "variables": {
+                        "IntrospectionEndpoint": {
+                            "value": "https://ydx-dev01-idp-sea-wa.azurewebsites.net/connect/introspect"
+                        },
+                        "Project-Uri": {
+                            "value": "https://ydx-dev01-ppm-be-sea-wa.azurewebsites.net/fnc/mst/projects?code=xKvUgzJgdbwRcBRvPsee3gPbmBMXTpR8pkWhTWQky6RfvW5cxe5kqn94C9D"
+                        },
+                        "Subscription-Uri": {
+                            "value": "https://ydx-dev01-ppm-be-sea-wa.azurewebsites.net/fnc/mst/subscriptions?code=xKvUgzJgdbwRcBRvPsee3gPbmBMXTpR8pkWhTWQky6RfvW5cxe5kqn94C9D"
+                        },
+                        "Tenant-Uri": {
+                            "value": "https://ydx-dev01-ppm-be-sea-wa.azurewebsites.net/fnc/mst/tenants?code=xKvUgzJgdbwRcBRvPsee3gPbmBMXTpR8pkWhTWQky6RfvW5cxe5kqn94C9D"
+                        }
+                    },
+                    "type": "Vsts",
+                    "id": 15,
+                    "name": "Tenant Function - Dev01",
+                    "description": "",
+                    "isShared": false,
+                    "variableGroupProjectReferences": null
+                }
+            ],
+            "preDeployApprovals": [
+                {
+                    "id": 24122,
+                    "revision": 1,
+                    "approvalType": "preDeploy",
+                    "createdOn": "2022-02-14T09:03:09.413Z",
+                    "modifiedOn": "2022-02-14T09:03:09.423Z",
+                    "status": "approved",
+                    "comments": "",
+                    "isAutomated": true,
+                    "isNotificationOn": false,
+                    "trialNumber": 1,
+                    "attempt": 1,
+                    "rank": 1,
+                    "release": {
+                        "id": 18026,
+                        "name": "0.1.3-vmo-develop.131-20220214-2",
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026",
+                        "_links": {}
+                    },
+                    "releaseDefinition": {
+                        "id": 23,
+                        "name": "audit-service - dev01",
+                        "path": "\\dev01",
+                        "projectReference": null,
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/definitions/23",
+                        "_links": {}
+                    },
+                    "releaseEnvironment": {
+                        "id": 36862,
+                        "name": "Migrate database",
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026/environments/36862",
+                        "_links": {}
+                    },
+                    "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/approvals/24122"
+                }
+            ],
+            "postDeployApprovals": [
+                {
+                    "id": 24128,
+                    "revision": 1,
+                    "approvalType": "postDeploy",
+                    "createdOn": "2022-02-14T09:08:28.283Z",
+                    "modifiedOn": "2022-02-14T09:08:28.293Z",
+                    "status": "approved",
+                    "comments": "",
+                    "isAutomated": true,
+                    "isNotificationOn": false,
+                    "trialNumber": 1,
+                    "attempt": 1,
+                    "rank": 3,
+                    "release": {
+                        "id": 18026,
+                        "name": "0.1.3-vmo-develop.131-20220214-2",
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026",
+                        "_links": {}
+                    },
+                    "releaseDefinition": {
+                        "id": 23,
+                        "name": "audit-service - dev01",
+                        "path": "\\dev01",
+                        "projectReference": null,
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/definitions/23",
+                        "_links": {}
+                    },
+                    "releaseEnvironment": {
+                        "id": 36862,
+                        "name": "Migrate database",
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026/environments/36862",
+                        "_links": {}
+                    },
+                    "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/approvals/24128"
+                }
+            ],
+            "preApprovalsSnapshot": {
+                "approvals": []
+            },
+            "postApprovalsSnapshot": {
+                "approvals": []
+            },
+            "deploySteps": [
+                {
+                    "id": 24123,
+                    "deploymentId": 36576,
+                    "attempt": 1,
+                    "reason": "automated",
+                    "status": "succeeded",
+                    "operationStatus": "Approved",
+                    "releaseDeployPhases": [
+                        {
+                            "id": 7910,
+                            "phaseId": "7910",
+                            "name": "Agent job",
+                            "rank": 1,
+                            "phaseType": "agentBasedDeployment",
+                            "status": "succeeded",
+                            "runPlanId": "257ca2a7-9f57-4acf-b5e7-7f1e5c6b5cf0",
+                            "deploymentJobs": [
+                                {
+                                    "job": {
+                                        "id": 12,
+                                        "timelineRecordId": "9959456e-bba7-586e-cea6-57be4d4c12c8",
+                                        "name": "Agent job",
+                                        "dateStarted": "2022-02-14T09:03:18.4133333Z",
+                                        "dateEnded": "2022-02-14T09:08:23.4166667Z",
+                                        "startTime": "2022-02-14T09:03:18.4133333Z",
+                                        "finishTime": "2022-02-14T09:08:23.4166667Z",
+                                        "status": "succeeded",
+                                        "rank": 1,
+                                        "issues": [],
+                                        "agentName": "ops-a01-sea-vm"
+                                    },
+                                    "tasks": [
+                                        {
+                                            "id": 4,
+                                            "timelineRecordId": "8e9c88f6-a962-4ead-9a80-31b15b3f9512",
+                                            "name": "Initialize job",
+                                            "dateStarted": "2022-02-14T09:03:18.83Z",
+                                            "dateEnded": "2022-02-14T09:03:19.45Z",
+                                            "startTime": "2022-02-14T09:03:18.83Z",
+                                            "finishTime": "2022-02-14T09:03:19.45Z",
+                                            "status": "succeeded",
+                                            "rank": 1,
+                                            "issues": [],
+                                            "agentName": "ops-a01-sea-vm"
+                                        },
+                                        {
+                                            "id": 5,
+                                            "timelineRecordId": "3fb4395e-eef8-4837-a695-51b910a11b00",
+                                            "name": "Pre-job: Download secrets: ydx-dev01-sea-kv",
+                                            "dateStarted": "2022-02-14T09:03:19.4733333Z",
+                                            "dateEnded": "2022-02-14T09:03:20.8266667Z",
+                                            "startTime": "2022-02-14T09:03:19.4733333Z",
+                                            "finishTime": "2022-02-14T09:03:20.8266667Z",
+                                            "status": "skipped",
+                                            "rank": 2,
+                                            "issues": [],
+                                            "agentName": "ops-a01-sea-vm"
+                                        },
+                                        {
+                                            "id": 6,
+                                            "timelineRecordId": "bdbbe09f-4d18-4611-9455-ca5b0ff313d2",
+                                            "name": "Download Artifacts",
+                                            "dateStarted": "2022-02-14T09:03:20.8366667Z",
+                                            "dateEnded": "2022-02-14T09:03:25.0966667Z",
+                                            "startTime": "2022-02-14T09:03:20.8366667Z",
+                                            "finishTime": "2022-02-14T09:03:25.0966667Z",
+                                            "status": "succeeded",
+                                            "rank": 3,
+                                            "issues": [],
+                                            "agentName": "ops-a01-sea-vm"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "timelineRecordId": "b218af41-37cc-5fb2-e4e1-33f48ea7082e",
+                                            "name": "Download artifact - _link-service - drop",
+                                            "dateStarted": "2022-02-14T09:03:25.0966667Z",
+                                            "dateEnded": "2022-02-14T09:03:31.8766667Z",
+                                            "startTime": "2022-02-14T09:03:25.0966667Z",
+                                            "finishTime": "2022-02-14T09:03:31.8766667Z",
+                                            "status": "succeeded",
+                                            "rank": 4,
+                                            "issues": [],
+                                            "task": {
+                                                "id": "a433f589-fce1-4460-9ee6-44a624aeb1fb",
+                                                "name": "DownloadBuildArtifacts",
+                                                "version": "0.198.0"
+                                            },
+                                            "agentName": "ops-a01-sea-vm"
+                                        },
+                                        {
+                                            "id": 8,
+                                            "timelineRecordId": "1008c307-4693-57a6-bbd0-dd8e2281c24d",
+                                            "name": "Download secrets: ydx-dev01-sea-kv",
+                                            "dateStarted": "2022-02-14T09:03:31.8766667Z",
+                                            "dateEnded": "2022-02-14T09:03:33.15Z",
+                                            "startTime": "2022-02-14T09:03:31.8766667Z",
+                                            "finishTime": "2022-02-14T09:03:33.15Z",
+                                            "status": "succeeded",
+                                            "rank": 5,
+                                            "issues": [],
+                                            "task": {
+                                                "id": "1e244d32-2dd4-4165-96fb-b7441ca9331e",
+                                                "name": "AzureKeyVault",
+                                                "version": "2.189.0"
+                                            },
+                                            "agentName": "ops-a01-sea-vm"
+                                        },
+                                        {
+                                            "id": 9,
+                                            "timelineRecordId": "7b2ade89-1e14-5c81-dd64-0f76d990226d",
+                                            "name": "Create database if it not exists",
+                                            "dateStarted": "2022-02-14T09:03:33.15Z",
+                                            "dateEnded": "2022-02-14T09:06:10.52Z",
+                                            "startTime": "2022-02-14T09:03:33.15Z",
+                                            "finishTime": "2022-02-14T09:06:10.52Z",
+                                            "status": "succeeded",
+                                            "rank": 6,
+                                            "issues": [],
+                                            "task": {
+                                                "id": "46e4be58-730b-4389-8a2f-ea10b3e5e815",
+                                                "name": "AzureCLI",
+                                                "version": "2.198.0"
+                                            },
+                                            "agentName": "ops-a01-sea-vm"
+                                        },
+                                        {
+                                            "id": 10,
+                                            "timelineRecordId": "e1ee4c84-47f2-54f9-065d-fd42d785b92d",
+                                            "name": "Migrate database",
+                                            "dateStarted": "2022-02-14T09:06:10.52Z",
+                                            "dateEnded": "2022-02-14T09:08:23.39Z",
+                                            "startTime": "2022-02-14T09:06:10.52Z",
+                                            "finishTime": "2022-02-14T09:08:23.39Z",
+                                            "status": "succeeded",
+                                            "rank": 7,
+                                            "issues": [],
+                                            "task": {
+                                                "id": "e213ff0f-5d5c-4791-802d-52ea3e7be1f1",
+                                                "name": "PowerShell",
+                                                "version": "2.198.0"
+                                            },
+                                            "agentName": "ops-a01-sea-vm"
+                                        },
+                                        {
+                                            "id": 11,
+                                            "timelineRecordId": "8a064074-20e4-4b55-bf13-27e647ed3895",
+                                            "name": "Finalize Job",
+                                            "dateStarted": "2022-02-14T09:08:23.4Z",
+                                            "dateEnded": "2022-02-14T09:08:23.4133333Z",
+                                            "startTime": "2022-02-14T09:08:23.4Z",
+                                            "finishTime": "2022-02-14T09:08:23.4133333Z",
+                                            "status": "succeeded",
+                                            "percentComplete": 100,
+                                            "rank": 8,
+                                            "issues": [],
+                                            "agentName": "ops-a01-sea-vm"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "manualInterventions": [],
+                            "startedOn": "2022-02-14T09:03:13.583Z"
+                        }
+                    ],
+                    "requestedBy": {
+                        "displayName": "Thanh Tran",
+                        "url": "https://spsprodcus5.vssps.visualstudio.com/A4e55e82f-8b46-4848-9405-f80fea80e959/_apis/Identities/58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                        "_links": {
+                            "avatar": {
+                                "href": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+                            }
+                        },
+                        "id": "58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                        "uniqueName": "Tran-Thanh@websynergies.biz",
+                        "imageUrl": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1",
+                        "descriptor": "aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+                    },
+                    "requestedFor": {
+                        "displayName": "Thanh Tran",
+                        "url": "https://spsprodcus5.vssps.visualstudio.com/A4e55e82f-8b46-4848-9405-f80fea80e959/_apis/Identities/58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                        "_links": {
+                            "avatar": {
+                                "href": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+                            }
+                        },
+                        "id": "58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                        "uniqueName": "Tran-Thanh@websynergies.biz",
+                        "imageUrl": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1",
+                        "descriptor": "aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+                    },
+                    "queuedOn": "2022-02-14T09:03:09.113Z",
+                    "lastModifiedBy": {
+                        "displayName": "Microsoft.VisualStudio.Services.ReleaseManagement",
+                        "id": "0000000d-0000-8888-8000-000000000000",
+                        "uniqueName": "0000000d-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+                        "descriptor": "s2s.MDAwMDAwMGQtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+                    },
+                    "lastModifiedOn": "2022-02-14T09:08:28.307Z",
+                    "hasStarted": true,
+                    "tasks": [],
+                    "runPlanId": "00000000-0000-0000-0000-000000000000",
+                    "issues": []
+                }
+            ],
+            "rank": 1,
+            "definitionEnvironmentId": 30,
+            "environmentOptions": {
+                "emailNotificationType": "OnlyOnFailure",
+                "emailRecipients": "release.environment.owner;release.creator",
+                "skipArtifactsDownload": false,
+                "timeoutInMinutes": 0,
+                "enableAccessToken": false,
+                "publishDeploymentStatus": true,
+                "badgeEnabled": false,
+                "autoLinkWorkItems": false,
+                "pullRequestDeploymentEnabled": false
+            },
+            "demands": [],
+            "conditions": [
+                {
+                    "result": true,
+                    "name": "ReleaseStarted",
+                    "conditionType": "event",
+                    "value": ""
+                }
+            ],
+            "createdOn": "2022-02-14T09:03:09.113Z",
+            "modifiedOn": "2022-02-14T09:08:28.293Z",
+            "workflowTasks": [],
+            "deployPhasesSnapshot": [
+                {
+                    "deploymentInput": {
+                        "parallelExecution": {
+                            "parallelExecutionType": "none"
+                        },
+                        "agentSpecification": null,
+                        "skipArtifactsDownload": false,
+                        "artifactsDownloadInput": {
+                            "downloadInputs": [
+                                {
+                                    "alias": "_helm-chart",
+                                    "artifactType": "Git",
+                                    "artifactDownloadMode": "All",
+                                    "artifactItems": []
+                                },
+                                {
+                                    "alias": "_link-service",
+                                    "artifactType": "Build",
+                                    "artifactDownloadMode": "Selective",
+                                    "artifactItems": [
+                                        "drop/**"
+                                    ]
+                                }
+                            ]
+                        },
+                        "queueId": 11,
+                        "demands": [],
+                        "enableAccessToken": false,
+                        "timeoutInMinutes": 0,
+                        "jobCancelTimeoutInMinutes": 1,
+                        "condition": "succeeded()",
+                        "overrideInputs": {}
+                    },
+                    "rank": 1,
+                    "phaseType": "agentBasedDeployment",
+                    "name": "Agent job",
+                    "refName": null,
+                    "workflowTasks": []
+                }
+            ],
+            "owner": {
+                "displayName": "Thanh Tran",
+                "url": "https://spsprodcus5.vssps.visualstudio.com/A4e55e82f-8b46-4848-9405-f80fea80e959/_apis/Identities/58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+                    }
+                },
+                "id": "58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                "uniqueName": "Tran-Thanh@websynergies.biz",
+                "imageUrl": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1",
+                "descriptor": "aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+            },
+            "schedules": [],
+            "release": {
+                "id": 18026,
+                "name": "0.1.3-vmo-develop.131-20220214-2",
+                "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026",
+                "_links": {
+                    "web": {
+                        "href": "https://dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_release?releaseId=18026&_a=release-summary"
+                    },
+                    "self": {
+                        "href": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026"
+                    }
+                }
+            },
+            "releaseDefinition": {
+                "id": 23,
+                "name": "audit-service - dev01",
+                "path": "\\dev01",
+                "projectReference": null,
+                "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/definitions/23",
+                "_links": {
+                    "web": {
+                        "href": "https://dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_release?definitionId=23"
+                    },
+                    "self": {
+                        "href": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/definitions/23"
+                    }
+                }
+            },
+            "releaseCreatedBy": {
+                "displayName": "Thanh Tran",
+                "url": "https://spsprodcus5.vssps.visualstudio.com/A4e55e82f-8b46-4848-9405-f80fea80e959/_apis/Identities/58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+                    }
+                },
+                "id": "58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                "uniqueName": "Tran-Thanh@websynergies.biz",
+                "imageUrl": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1",
+                "descriptor": "aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+            },
+            "triggerReason": "ReleaseStarted",
+            "timeToDeploy": 5.312833333333334,
+            "processParameters": {},
+            "preDeploymentGatesSnapshot": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "postDeploymentGatesSnapshot": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            }
+        },
+        "project": {
+            "id": "f59c38b9-0926-4937-8813-6252136e8350",
+            "name": "yokogawa-ppm"
+        },
+        "deployment": {
+            "id": 36576,
+            "release": {
+                "id": 18026,
+                "name": "0.1.3-vmo-develop.131-20220214-2",
+                "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026",
+                "artifacts": [
+                    {
+                        "sourceId": "949d8c59-4361-4256-9b40-40453a3ac052:312235d5-6967-4d47-9719-b1572486f103",
+                        "type": "Git",
+                        "alias": "_helm-chart",
+                        "definitionReference": {
+                            "branches": {
+                                "id": "main",
+                                "name": "main"
+                            },
+                            "checkoutNestedSubmodules": {
+                                "id": "True",
+                                "name": "Any nested submodules within"
+                            },
+                            "checkoutSubmodules": {
+                                "id": "",
+                                "name": ""
+                            },
+                            "definition": {
+                                "id": "312235d5-6967-4d47-9719-b1572486f103",
+                                "name": "yokogawa-helm-chart"
+                            },
+                            "fetchDepth": {
+                                "id": "",
+                                "name": ""
+                            },
+                            "gitLfsSupport": {
+                                "id": "",
+                                "name": ""
+                            },
+                            "project": {
+                                "id": "949d8c59-4361-4256-9b40-40453a3ac052",
+                                "name": "yokogawa-devops"
+                            },
+                            "version": {
+                                "id": "d546e323a6df5c442eefdf7f793252d4a3806c73",
+                                "name": "d546e323"
+                            },
+                            "branch": {
+                                "id": "main",
+                                "name": "main"
+                            }
+                        },
+                        "isRetained": false
+                    },
+                    {
+                        "sourceId": "f59c38b9-0926-4937-8813-6252136e8350:15",
+                        "type": "Build",
+                        "alias": "_link-service",
+                        "definitionReference": {
+                            "artifactSourceDefinitionUrl": {
+                                "id": "https://dev.azure.com/ThanhTrungBui/_permalink/_build/index?collectionId=0b0b2d04-ee6c-461d-9668-eebc4282d7da&projectId=f59c38b9-0926-4937-8813-6252136e8350&definitionId=15",
+                                "name": ""
+                            },
+                            "branches": {
+                                "id": "features/vmo/develop",
+                                "name": "features/vmo/develop"
+                            },
+                            "buildUri": {
+                                "id": "vstfs:///Build/Build/4487",
+                                "name": null
+                            },
+                            "definition": {
+                                "id": "15",
+                                "name": "audit-service"
+                            },
+                            "IsMultiDefinitionType": {
+                                "id": "False",
+                                "name": "False"
+                            },
+                            "IsXamlBuildArtifactType": {
+                                "id": "False",
+                                "name": null
+                            },
+                            "project": {
+                                "id": "f59c38b9-0926-4937-8813-6252136e8350",
+                                "name": "yokogawa-ppm"
+                            },
+                            "repository.provider": {
+                                "id": "TfsGit",
+                                "name": null
+                            },
+                            "repository": {
+                                "id": "60ae3870-1e3d-4e4a-801a-84a364881dfe",
+                                "name": "yokogawa-audit-service"
+                            },
+                            "requestedFor": {
+                                "id": "michael.dang1",
+                                "name": null
+                            },
+                            "requestedForId": {
+                                "id": "e53c0696-c2fd-6b1e-a8c3-ef818c27273c",
+                                "name": null
+                            },
+                            "sourceVersion": {
+                                "id": "4825fd64286ecea551245c041ec384a2e4b31789",
+                                "name": null
+                            },
+                            "version": {
+                                "id": "4487",
+                                "name": "0.1.3-vmo-develop.131"
+                            },
+                            "artifactSourceVersionUrl": {
+                                "id": "https://dev.azure.com/ThanhTrungBui/_permalink/_build/index?collectionId=0b0b2d04-ee6c-461d-9668-eebc4282d7da&projectId=f59c38b9-0926-4937-8813-6252136e8350&buildId=4487",
+                                "name": ""
+                            },
+                            "branch": {
+                                "id": "refs/heads/features/vmo/develop",
+                                "name": "refs/heads/features/vmo/develop"
+                            }
+                        },
+                        "isPrimary": true,
+                        "isRetained": true
+                    }
+                ],
+                "webAccessUri": "https://dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_release?releaseId=18026&_a=release-summary",
+                "_links": {
+                    "self": {
+                        "href": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026"
+                    },
+                    "web": {
+                        "href": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_release?releaseId=18026&_a=release-summary"
+                    },
+                    "logs": {
+                        "href": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_release?releaseId=18026&_a=release-logs&environmentId=36862&releaseEnvironmentId=36862"
+                    }
+                },
+                "description": "",
+                "reason": "manual"
+            },
+            "releaseDefinition": {
+                "id": 23,
+                "name": "audit-service - dev01",
+                "path": "\\dev01",
+                "projectReference": {
+                    "id": "f59c38b9-0926-4937-8813-6252136e8350",
+                    "name": null
+                },
+                "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/definitions/23",
+                "_links": {
+                    "self": {
+                        "href": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/definitions/23"
+                    },
+                    "web": {
+                        "href": "https://dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_release?definitionId=23"
+                    }
+                }
+            },
+            "releaseEnvironment": {
+                "id": 36862,
+                "name": "Migrate database",
+                "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026/environments/36862",
+                "_links": {
+                    "self": {
+                        "href": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026/environments/36862"
+                    },
+                    "web": {
+                        "href": "https://dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_release?releaseId=18026&_a=release-logs&environmentId=36862&releaseEnvironmentId=36862"
+                    }
+                }
+            },
+            "projectReference": null,
+            "definitionEnvironmentId": 30,
+            "attempt": 1,
+            "reason": "automated",
+            "deploymentStatus": "succeeded",
+            "operationStatus": "Approved",
+            "requestedBy": {
+                "displayName": "Thanh Tran",
+                "url": "https://spsprodcus5.vssps.visualstudio.com/A4e55e82f-8b46-4848-9405-f80fea80e959/_apis/Identities/58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+                    }
+                },
+                "id": "58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                "uniqueName": "Tran-Thanh@websynergies.biz",
+                "imageUrl": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1",
+                "descriptor": "aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+            },
+            "requestedFor": {
+                "displayName": "Thanh Tran",
+                "url": "https://spsprodcus5.vssps.visualstudio.com/A4e55e82f-8b46-4848-9405-f80fea80e959/_apis/Identities/58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+                    }
+                },
+                "id": "58ef0dd0-c2a0-699e-aa1c-c5c3a0251a75",
+                "uniqueName": "Tran-Thanh@websynergies.biz",
+                "imageUrl": "https://dev.azure.com/ThanhTrungBui/_apis/GraphProfile/MemberAvatars/aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1",
+                "descriptor": "aad.NThlZjBkZDAtYzJhMC03OTllLWFhMWMtYzVjM2EwMjUxYTc1"
+            },
+            "queuedOn": "2022-02-14T09:03:09.113Z",
+            "startedOn": "2022-02-14T09:03:13.583Z",
+            "completedOn": "2022-02-14T09:08:28.307Z",
+            "lastModifiedOn": "2022-02-14T09:08:28.307Z",
+            "lastModifiedBy": {
+                "displayName": "Microsoft.VisualStudio.Services.ReleaseManagement",
+                "id": "0000000d-0000-8888-8000-000000000000",
+                "uniqueName": "0000000d-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+                "descriptor": "s2s.MDAwMDAwMGQtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+            },
+            "conditions": [
+                {
+                    "name": "ReleaseStarted",
+                    "conditionType": "event",
+                    "value": ""
+                }
+            ],
+            "preDeployApprovals": [
+                {
+                    "id": 24122,
+                    "revision": 1,
+                    "approvalType": "preDeploy",
+                    "createdOn": "2022-02-14T09:03:09.413Z",
+                    "modifiedOn": "2022-02-14T09:03:09.423Z",
+                    "status": "approved",
+                    "comments": "",
+                    "isAutomated": true,
+                    "isNotificationOn": false,
+                    "trialNumber": 1,
+                    "attempt": 1,
+                    "rank": 1,
+                    "release": {
+                        "id": 18026,
+                        "name": "",
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026",
+                        "_links": {}
+                    },
+                    "releaseDefinition": {
+                        "id": 0,
+                        "name": "",
+                        "projectReference": null,
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/definitions/0",
+                        "_links": {}
+                    },
+                    "releaseEnvironment": {
+                        "id": 36862,
+                        "name": "",
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026/environments/36862",
+                        "_links": {}
+                    },
+                    "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/approvals/24122"
+                }
+            ],
+            "postDeployApprovals": [
+                {
+                    "id": 24128,
+                    "revision": 1,
+                    "approvalType": "postDeploy",
+                    "createdOn": "2022-02-14T09:08:28.283Z",
+                    "modifiedOn": "2022-02-14T09:08:28.293Z",
+                    "status": "approved",
+                    "comments": "",
+                    "isAutomated": true,
+                    "isNotificationOn": false,
+                    "trialNumber": 1,
+                    "attempt": 1,
+                    "rank": 3,
+                    "release": {
+                        "id": 18026,
+                        "name": "",
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026",
+                        "_links": {}
+                    },
+                    "releaseDefinition": {
+                        "id": 0,
+                        "name": "",
+                        "projectReference": null,
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/definitions/0",
+                        "_links": {}
+                    },
+                    "releaseEnvironment": {
+                        "id": 36862,
+                        "name": "",
+                        "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/releases/18026/environments/36862",
+                        "_links": {}
+                    },
+                    "url": "https://vsrm.dev.azure.com/ThanhTrungBui/f59c38b9-0926-4937-8813-6252136e8350/_apis/Release/approvals/24128"
+                }
+            ],
+            "_links": {}
+        },
+        "comment": null,
+        "data": {
+            "releaseProperties": "{\"DownloadBuildArtifactsUsingTask\":{\"$type\":\"System.String\",\"$value\":\"True\"},\"ReleaseCreationSource\":{\"$type\":\"System.String\",\"$value\":\"ReleaseHub\"},\"BuildArtifacts\":{\"$type\":\"System.Byte[]\",\"$value\":\"H4sIAAAAAAAEANWTXWvbMBSG/0rRaK9i68ufgTBo7ncxuqsxgmJJtagtGUlO1oT898lpHFq6mUBhJTe2kI/Ped9Xj/aAppgUYP5zDxQH84QiNAOatQLMwdJwcbM0G2HZo7j5Ljpj/SpJihzMgDO9rYYiTCTGOZJRmkgSpVTSiCDOI0JklXMp01SWod6K8Y89WDVKP7lhtRXr4VVbIUOr2vvOzSHkYhOzXW9FXJkWPtRM1w+214/3vYIr1ikHl0Z7prSwDuKMYJqjAg5qbwka9YblK8VQaS5+x7VvG3A4zIB/7l4cnvoEhZx5Fra+vO34L/+dNZ2wXomjj2rsI03DQ7fp7Fj4T7LKXxDzWPoXvffWbB1bN8N+iEeAYKu3zYU5yrSsaLEuI1SSLEpKmkdFgWmUkTS4z0RBU3QKe92rhr88HTyGOapyX8fVt2BlMXkCd6FXFD44ZfQii3HUWbFRYhunQ/ZmqxvD+I9r1H93SxJpbMv8Yqe6Aa/zXcLnu+SF8x+8Nhcxe5rzFs/GVKzpmK9DLaxNK+Bxh/FWadg+B6/aY7jaGvsEMYUOhrF941/x59RumE0wylH5+aQNLq8AqGmZE9yQMzc8HOT/4OY050PcsPfA4CLH+PN5GdxdAS/TMt/x8uvwB0HR9uK/BwAA\"}}",
+            "environmentStatuses": "{\"30\":\"Succeeded\",\"31\":\"InProgress\"}",
+            "workItems": [
+                {
+                    "id": 4914,
+                    "fields": {
+                        "System.WorkItemType": "User Story",
+                        "System.State": "New",
+                        "System.Title": "Change Timestamp of download/exported file name",
+                        "Release.WorkItemWebUrl": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_workitems?_a=edit&id=4914"
+                    }
+                },
+                {
+                    "id": 6293,
+                    "fields": {
+                        "System.WorkItemType": "Bug",
+                        "System.State": "Resolved",
+                        "System.Title": "[Activity logs][Export] Timestamp is missing day in exported file",
+                        "Release.WorkItemWebUrl": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_workitems?_a=edit&id=6293"
+                    }
+                }
+            ],
+            "previousReleaseEnvironment": {
+                "status": "succeeded"
+            },
+            "commits": [
+                {
+                    "id": "4825fd64286ecea551245c041ec384a2e4b31789",
+                    "message": "Merged PR 2655: fix UT",
+                    "displayUri": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_git/60ae3870-1e3d-4e4a-801a-84a364881dfe/commit/4825fd64286ecea551245c041ec384a2e4b31789",
+                    "author": {
+                        "displayName": "michael.dang1"
+                    }
+                },
+                {
+                    "id": "ef21b57de6f4f7439c691770114c6275915fd4c7",
+                    "message": "Merged PR 2630: Update timezone for filename timestamp",
+                    "displayUri": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_git/60ae3870-1e3d-4e4a-801a-84a364881dfe/commit/ef21b57de6f4f7439c691770114c6275915fd4c7",
+                    "author": {
+                        "displayName": "vuhoang"
+                    }
+                },
+                {
+                    "id": "30b227e2927e6e07653af5725eb138e7ba272573",
+                    "message": "Update timezone for filename timestamp",
+                    "displayUri": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_git/60ae3870-1e3d-4e4a-801a-84a364881dfe/commit/30b227e2927e6e07653af5725eb138e7ba272573",
+                    "author": {
+                        "displayName": "vuhoang"
+                    }
+                },
+                {
+                    "id": "0c8e0cb1818f9b57d2da1c4ba207f255d6481259",
+                    "message": "Merge branch 'features/vmo/develop' of https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_git/yokogawa-audit-service into features/dev/update_export",
+                    "displayUri": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_git/60ae3870-1e3d-4e4a-801a-84a364881dfe/commit/0c8e0cb1818f9b57d2da1c4ba207f255d6481259",
+                    "author": {
+                        "displayName": "vuhoang"
+                    }
+                },
+                {
+                    "id": "e182f39c1d1c463da647618bebf5cb0326e41104",
+                    "message": "Merged PR 2611: Fix 6293",
+                    "displayUri": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_git/60ae3870-1e3d-4e4a-801a-84a364881dfe/commit/e182f39c1d1c463da647618bebf5cb0326e41104",
+                    "author": {
+                        "displayName": "vuhoang"
+                    }
+                },
+                {
+                    "id": "042449472e014549d5566f61dfad2388603a8468",
+                    "message": "Update UT services version",
+                    "displayUri": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_git/60ae3870-1e3d-4e4a-801a-84a364881dfe/commit/042449472e014549d5566f61dfad2388603a8468",
+                    "author": {
+                        "displayName": "vuhoang"
+                    }
+                },
+                {
+                    "id": "e7b8acde6ecfd3972164218ab76e47db275d3449",
+                    "message": "fix event topic",
+                    "displayUri": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_git/60ae3870-1e3d-4e4a-801a-84a364881dfe/commit/e7b8acde6ecfd3972164218ab76e47db275d3449",
+                    "author": {
+                        "displayName": "vuhoang"
+                    }
+                },
+                {
+                    "id": "8b5964ef2c3d4a85402e4c4330c714b552a0008f",
+                    "message": "Update export API",
+                    "displayUri": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_git/60ae3870-1e3d-4e4a-801a-84a364881dfe/commit/8b5964ef2c3d4a85402e4c4330c714b552a0008f",
+                    "author": {
+                        "displayName": "vuhoang"
+                    }
+                },
+                {
+                    "id": "d3a5c91f7230d3f3a81aef504f238e8d9618fe41",
+                    "message": "Reflect new signalR logic",
+                    "displayUri": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_git/60ae3870-1e3d-4e4a-801a-84a364881dfe/commit/d3a5c91f7230d3f3a81aef504f238e8d9618fe41",
+                    "author": {
+                        "displayName": "vuhoang"
+                    }
+                },
+                {
+                    "id": "5a9d464421ae120a3112e8fb65fda1c7eb185df7",
+                    "message": "upgrade library",
+                    "displayUri": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_git/60ae3870-1e3d-4e4a-801a-84a364881dfe/commit/5a9d464421ae120a3112e8fb65fda1c7eb185df7",
+                    "author": {
+                        "displayName": "Thanh Tran"
+                    }
+                }
+            ],
+            "testResults": {},
+            "moreWorkItemsMessage": ""
+        },
+        "stageName": "Migrate database",
+        "attemptId": 1,
+        "id": 18026,
+        "url": "https://dev.azure.com/ThanhTrungBui/yokogawa-ppm/_release?releaseId=18026&_a=release-summary"
+    },
+    "resourceVersion": "3.0-preview.1",
+    "resourceContainers": {
+        "collection": {
+            "id": "0b0b2d04-ee6c-461d-9668-eebc4282d7da",
+            "baseUrl": "https://vsrm.dev.azure.com/ThanhTrungBui/"
+        },
+        "account": {
+            "id": "4e55e82f-8b46-4848-9405-f80fea80e959",
+            "baseUrl": "https://vsrm.dev.azure.com/ThanhTrungBui/"
+        },
+        "project": {
+            "id": "f59c38b9-0926-4937-8813-6252136e8350",
+            "baseUrl": "https://vsrm.dev.azure.com/ThanhTrungBui/"
+        }
+    },
+    "createdDate": "2022-02-14T09:08:35.1220737Z"
+}

@@ -1,0 +1,13 @@
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/bin/Debug/netstandard2.1/AssetTable.Application.deps.json
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/bin/Debug/netstandard2.1/AssetTable.Application.dll
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/bin/Debug/netstandard2.1/AssetTable.Application.pdb
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/bin/Debug/netstandard2.1/AssetTable.Domain.dll
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/bin/Debug/netstandard2.1/AssetTable.Domain.pdb
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/obj/Debug/netstandard2.1/AssetTable.Application.csproj.AssemblyReference.cache
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/obj/Debug/netstandard2.1/AssetTable.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/obj/Debug/netstandard2.1/AssetTable.Application.AssemblyInfoInputs.cache
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/obj/Debug/netstandard2.1/AssetTable.Application.AssemblyInfo.cs
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/obj/Debug/netstandard2.1/AssetTable.Application.csproj.CoreCompileInputs.cache
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/obj/Debug/netstandard2.1/AssetTable.Application.csproj.CopyComplete
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/obj/Debug/netstandard2.1/AssetTable.Application.dll
+/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/obj/Debug/netstandard2.1/AssetTable.Application.pdb

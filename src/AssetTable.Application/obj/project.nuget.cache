@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hzio4RU/lLA=",
+  "success": false,
+  "projectFilePath": "/Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/AssetTable.Application.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'AHI.Infrastructure.Service.Dapper' from remote source 'https://pkgs.dev.azure.com/AssetHealthInsights/_packaging/79ae7bbd-f600-4ab5-a5f9-fd5798c28b30/nuget/v3/flat2/ahi.infrastructure.service.dapper/index.json'.",
+      "libraryId": "AHI.Infrastructure.Service.Dapper"
+    }
+  ]
+}

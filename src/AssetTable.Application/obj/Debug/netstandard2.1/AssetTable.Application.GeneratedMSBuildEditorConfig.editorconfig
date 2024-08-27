@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = AssetTable.Application
+build_property.ProjectDir = /Users/phuphan/Yokogawa/Asset Management/asset-table-service/src/AssetTable.Application/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

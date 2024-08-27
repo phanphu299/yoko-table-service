@@ -1,0 +1,18 @@
+version: "3"
+services:
+  asset-table-service:
+    # replace username/repo:tag with your name and image details
+    build: 
+      context: .
+      dockerfile: Dockerfile
+  asset-table-migration:
+    # replace username/repo:tag with your name and image details
+    build: 
+      context: .
+      dockerfile: Dockerfile-migration
+  asset-table-function:
+    # replace username/repo:tag with your name and image details
+    build: 
+      context: .
+      dockerfile: Dockerfile-function
+    
